@@ -1,0 +1,28 @@
+.home-main-container{
+    display: flex;
+    background-color: #eaeff3;
+    
+
+}
+.home-left-container{
+    width: 50%;
+    margin: 40px;
+}
+.home-right-container{
+    height: 700px;
+}
+.image-container{
+    /* border: 1px solid; */
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+}
+.image-container img{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 600px;
+    object-fit: cover;
+}

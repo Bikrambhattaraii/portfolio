@@ -3,7 +3,7 @@
     width: 100%;
     padding: 30px;
     display: flex;
-    
+/* position:inherit;     */
     /* text-decoration: none; */
 }
 .portfolio-navbar p{
