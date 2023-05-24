@@ -4,7 +4,7 @@
     padding: 30px;
     display: flex;
     
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 .portfolio-navbar p{
     font-size: 1.3rem;
@@ -20,21 +20,36 @@ a{
 .menu-items{
     display: flex;
     margin-left: 500px;
+    list-style: none;
 
 }
-.menu-items li{
+.menu-items li a:hover{
+    color: rgb(119, 90, 29);
+    transition: 1s ease-in-out;
+}
+.menu-items li a{
     font-size: 1.4rem;
     margin-left: 20px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    color: indianred;
 }
 .menu-items li a{
     list-style: none;
 }
 .icons{
     display: flex;
+    list-style: none;
 }
 .icons li{
     margin-left: 40px;
 }
+.icons li a:hover{
+    color: blue;
+    transition: 1s ease-in-out;
+    transform:scaleX(1.2) ;
+}
+
 .main-navbar{
     display: flex;
 }
