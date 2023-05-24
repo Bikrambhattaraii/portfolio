@@ -1,0 +1,40 @@
+.portfolio-navbar{
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    
+    text-decoration: none;
+}
+.portfolio-navbar p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.portfolio-navbar a{
+    text-decoration: none;
+    
+}
+a{
+    list-style: none;
+}
+.menu-items{
+    display: flex;
+    margin-left: 500px;
+
+}
+.menu-items li{
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+.menu-items li a{
+    list-style: none;
+}
+.icons{
+    display: flex;
+}
+.icons li{
+    margin-left: 40px;
+}
+.main-navbar{
+    display: flex;
+}
