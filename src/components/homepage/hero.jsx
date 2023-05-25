@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div className="home-main-container">
       <div className="home-left-container">
-        <h1>Bikram Bhattarai</h1>
+        <h1>Bikram <br></br> Bhattarai</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, non.
         </p>
-        <button></button>
-        <button></button>
+        <button>Contact Me</button>
+        <button>Hire Me</button>
       </div>
       <div className="home-right-container">
         <div className="image-container">

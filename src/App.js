@@ -1,7 +1,7 @@
 
 import './App.css';
 import Button from './components/reusablebutton/button.jsx'
-import Home from './components/homepage/home.jsx'
+import Home from './components/homepage/hero'
 import Header from "../src/components/header/header"
 function App() {
   return (
