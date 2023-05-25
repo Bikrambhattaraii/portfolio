@@ -53,7 +53,7 @@
     height: 600px;
     object-fit: cover;
 }
-button{
+.hero-buttons{
     background-color: var(--primary-color);
     padding: 20px 30px ;
     border-radius: 40px;
@@ -65,7 +65,7 @@ button{
     
     margin-top: 20px;
 }
-button:hover{
+.hero-buttons:hover{
     background-color: white;
     color: #073566;
     transition: 0.9s ease-in-out;

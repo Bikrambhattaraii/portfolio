@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #0bb3e4;
+  --secondary-color: #142844;
+}
+
+.main-container-information-section {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  max-height: 700px;
+  flex-direction: row;
+}
+.information-left-container {
+  width: 50%;
+  /* border: 1px solid; */
+  margin-top: 80px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+.information-left-container h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2.4rem;
+  margin-bottom: 70px;
+}
+.information-left-container p {
+  font-size: 1.4rem;
+}
+.information-button {
+  background-color: var(--primary-color);
+  padding: 20px 30px;
+  border-radius: 40px;
+  margin-right: 20px;
+  /* justify-content: start; */
+  border: none;
+  color: #eaeff3;
+  font-size: 1.3rem;
+
+  margin-top: 20px;
+}
+.information-button:hover {
+  background-color: white;
+  color: #073566;
+  transition: 0.9s ease-in-out;
+}
+.information-right-container {
+  width: 50%;
+  /* border: 1px solid; */
+}
