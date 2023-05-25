@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #007bff;
+    --primary-color:#0bb3e4;
+    --secondary-color:#142844;
   }
   
 .home-main-container{
@@ -14,10 +15,18 @@
     width: 50%;
     margin: 40px;
     padding: 150px;
+    text-align: start;
 }
 .home-left-container h1{
     font-size: 4.6rem;
     text-align: start;
+    color: var(--secondary-color);
+    cursor: pointer;
+
+}
+.home-left-container h1:hover{
+    color: var(--primary-color);
+    
 
 }
 .home-left-container p{
@@ -46,13 +55,19 @@
 }
 button{
     background-color: var(--primary-color);
-    padding: 15px 30px ;
+    padding: 20px 30px ;
     border-radius: 40px;
     margin-right: 20px;
     /* justify-content: start; */
     border: none;
     color: #eaeff3;
-    font-size: 1.1rem;
-    margin-left: 10px;
+    font-size: 1.3rem;
+    
     margin-top: 20px;
+}
+button:hover{
+    background-color: white;
+    color: #073566;
+    transition: 0.9s ease-in-out;
+
 }
