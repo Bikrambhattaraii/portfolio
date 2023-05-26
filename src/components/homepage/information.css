@@ -14,8 +14,8 @@
   width: 50%;
   /* border: 1px solid; */
   margin-top: 80px;
-  margin-left: 200px;
-  margin-right: 50px;
+  margin-left: 150px;
+  /* margin-right: 50px; */
 }
 .information-left-container h1 {
   font-family: "Merriweather", serif;
@@ -23,7 +23,7 @@
   margin-bottom: 70px;
 }
 .information-left-container p {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 .information-button {
   background-color: var(--primary-color);
@@ -43,6 +43,19 @@
   transition: 0.9s ease-in-out;
 }
 .information-right-container {
-  width: 50%;
+  width:100%;
   /* border: 1px solid; */
+  margin-top: 130px;
+}
+.image1{
+  object-fit: cover;
+  height: 400px;
+  width: 300px;
+position: absolute;
+}
+.image2{
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  right: 5%;
 }

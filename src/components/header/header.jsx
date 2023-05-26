@@ -14,6 +14,7 @@ const Header = () => {
                 Portfolio</a></li>
             <li><a href=""> Contact</a></li>
             <li><a href=""> Hire Me</a></li>
+            <li><a href=""> Sign in</a></li>
 
         </ul>
         <ul className='icons'>
