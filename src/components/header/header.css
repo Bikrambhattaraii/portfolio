@@ -3,9 +3,17 @@
     width: 100%;
     padding: 30px;
     display: flex;
+    background-color: #333333;
+    color: #fff;
+    
 
 /* position:fixed;     */
     /* text-decoration: none; */
+}
+.logo img{
+    height: 90px;
+    width: 200px;
+    margin-left: 40px;
 }
 .portfolio-navbar p{
     font-size: 1.3rem;
@@ -20,7 +28,7 @@ a{
 }
 .menu-items{
     display: flex;
-    margin-left: 500px;
+    margin-left: 280px;
     list-style: none;
 
 }
@@ -33,7 +41,7 @@ a{
     margin-left: 20px;
     font-weight: 600;
     /* text-transform: uppercase; */
-    color: indianred;
+    color: #fff;
 }
 .menu-items li a{
     list-style: none;

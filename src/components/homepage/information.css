@@ -4,10 +4,10 @@
 }
 
 .main-container-information-section {
-  background-color: white;
+  background-color: #222222;
   display: flex;
   width: 100%;
-  max-height: 700px;
+  height: 700px;
   flex-direction: row;
 }
 .information-left-container {
@@ -21,9 +21,11 @@
   font-family: "Merriweather", serif;
   font-size: 2.4rem;
   margin-bottom: 70px;
+  color: #fff;
 }
 .information-left-container p {
   font-size: 1.1rem;
+  color: #eaeff3;
 }
 .information-button {
   background-color: var(--primary-color);
@@ -36,6 +38,7 @@
   font-size: 1.3rem;
 
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 .information-button:hover {
   background-color: white;
@@ -49,7 +52,7 @@
 }
 .image1{
   object-fit: cover;
-  height: 400px;
+  height: 430px;
   width: 300px;
 position: absolute;
 }

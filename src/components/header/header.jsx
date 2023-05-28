@@ -1,11 +1,14 @@
 import React from 'react';
 import { FaGithubSquare,FaFacebook, FaInstagram,FaLinkedin } from "react-icons/fa";
 import './header.css'
+import imageee from '../../assest/Screenshot 2023-05-28 224035.jpg'
 const Header = () => {
   return (
     <div>
       <nav className='portfolio-navbar'>
-        <p>logo</p>
+        <div className='logo'>
+          <img src={imageee} alt="" />
+        </div>
         <div className='main-navbar'>
         <ul className='menu-items'>
             <li><a href=""> Home </a></li>

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-customerservice{
+    background-color: #222222;
+    height:1200px;
+    width: 100%;
+    padding: 80px 80px;
+}
+.container-customerservice h1, .container-customerservice h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}

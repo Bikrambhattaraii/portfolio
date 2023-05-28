@@ -5,9 +5,10 @@
   
 .home-main-container{
     display: flex;
-    background-color: #eaeff3;
+    background-color: #333333;
     height: 900px;
-    
+    /* position: relative; */
+
     
 
 }
@@ -20,7 +21,7 @@
 .home-left-container h1{
     font-size: 4.6rem;
     text-align: start;
-    color: var(--secondary-color);
+    color: #fff;
     cursor: pointer;
 
 }
@@ -32,6 +33,7 @@
 .home-left-container p{
     text-align: start;
     font-size: 1.5rem;
+    color: #fff;
 }
 .home-right-container{
     height: 700px;

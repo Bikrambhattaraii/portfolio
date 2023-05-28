@@ -1,8 +1,6 @@
 import React from "react";
 import "./information.css";
-import image1 from '../../assest/image2.jpg'
-import image2 from '../../assest/image2.jpg'
-
+import image1 from '../../assest/image2.jpg';
 const Information = () => {
   return (
     <div className="main-container-information-section">
@@ -20,7 +18,7 @@ const Information = () => {
       </div>
       <div className="information-right-container">
         <img src={image1} alt="" className="image1"/>
-        <img src={image2} alt="" className="image2"/>
+    
       </div>
     </div>
   );
