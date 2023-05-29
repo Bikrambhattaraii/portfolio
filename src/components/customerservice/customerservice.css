@@ -8,6 +8,8 @@
     height:1200px;
     width: 100%;
     padding: 80px 80px;
+    
+    
 }
 .container-customerservice h1, .container-customerservice h2{
     color: white;
@@ -15,3 +17,22 @@
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+.card-skills-container{
+     /* display: flex;  */
+     
+height: 250px;
+border: 1px solid red;
+background-color: antiquewhite;
+width: 250px;
+/* display: flex; */
+margin-top: 30px;
+
+padding: 20px;
+
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
