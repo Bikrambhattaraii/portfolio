@@ -18,7 +18,8 @@ const Loginform = () => {
           </div>
           <div className="pass"><a href="#">Forgot password?</a></div>
           <div className="row button">
-            <input type="submit "  />
+          
+             <button type="submit" className="btn-login">submit</button>
           </div>
           <div className="signup-link">Not a member? <a href="#">Signup now</a></div>
         </form>

@@ -96,3 +96,14 @@ form .button input:hover{
 form .signup-link a:hover{
   text-decoration: underline;
 }
+.btn-login{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+padding: 8px  2px 8px 2px;
+margin-left: 100px;
+}

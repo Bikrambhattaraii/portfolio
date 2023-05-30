@@ -17,22 +17,10 @@
     text-align: center;
     font-family: 'Merriweather', serif;
 }
-.card-skills-container{
-     /* display: flex;  */
-     
-height: 250px;
-border: 1px solid red;
-background-color: antiquewhite;
-width: 250px;
-/* display: flex; */
-margin-top: 30px;
 
-padding: 20px;
-
-}
-.card-container{
+/* .card-container{
     display: flex;
     flex-direction: row;
-}
+} */
 
 

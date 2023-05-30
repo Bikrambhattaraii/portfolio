@@ -1,0 +1,30 @@
+.card-container{
+    height: 250px;
+    width: 300px;
+    border: 1px solid;
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.card-container:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.icon-customercard{
+    margin-left: 100px;
+    color: #fff;
+    
+}
+.card-skills-container h1{
+    font-size: 1.7rem;
+    color:#fff;
+
+
+}
+.card-skills-container p{
+    color: #fff;
+}

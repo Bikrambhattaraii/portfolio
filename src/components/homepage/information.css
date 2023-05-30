@@ -50,15 +50,10 @@
   /* border: 1px solid; */
   margin-top: 130px;
 }
-.image1{
+.image-information{
   object-fit: cover;
   height: 430px;
-  width: 300px;
+  width: 350px;
 position: absolute;
-}
-.image2{
-  position: absolute;
-  height: 300px;
-  width: 200px;
-  right: 5%;
+margin-left: 300px;
 }

@@ -15,7 +15,7 @@ function App() {
     <Information/>
     
     <Loginform />
-    {/* <Customerservice /> */}
+    <Customerservice />
     <Mywork />
     </div>
   );
