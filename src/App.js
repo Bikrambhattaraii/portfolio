@@ -7,6 +7,7 @@ import Information from './components/homepage/information';
 import Loginform from './components/loginform/loginform';
 import Mywork from './components/mywork/mywork';
 import Customerservice from './components/customerservice/customerservice';
+import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
     <Loginform />
     <Customerservice />
     <Mywork />
+    <Footer />
     </div>
   );
 }
