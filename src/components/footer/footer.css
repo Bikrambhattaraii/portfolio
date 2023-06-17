@@ -1,16 +1,80 @@
-.footer-main-section{
-    background-image: url(/src//assest/mm.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* Additional styling if needed */
-  width: 100%;
-  height: 100vh;
-  opacity: 50%;
-position: relative;
+/* Footer styles */
 
+footer {
+  background-color: #000c0d;
+  padding: 40px 0;
 }
-.footer-main-section h1{
-    position: absolute;
-    opacity: 10;
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
+
+.footer-column {
+  flex-basis: 30%;
+}
+
+h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.social-media-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.social-media-icons li {
+  display: inline-block;
+}
+
+.social-media-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.hire-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+ul li{
+  text-decoration: none;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-column{
+  color: #fff;
+}
+.footer-column li a{
+  text-decoration: none;
+}
+
+/* End of Footer styles */

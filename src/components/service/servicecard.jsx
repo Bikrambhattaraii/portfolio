@@ -1,4 +1,4 @@
-import "./customercard.css"
+import "./servicecard.css"
 import { FaUserNinja,FaReact,FaImages } from "react-icons/fa";
 import { BsWordpress } from "react-icons/bs";
 const SkillsData = [
@@ -15,7 +15,7 @@ const SkillsData = [
     id: "3", icon: FaImages,name: "theme development",description: "Web development is the process of creating websites and web applications. It involves designing, ",
   },
   ];
-const Customerservicecard = () => {
+const Servicecard = () => {
   return (
     <>
       
@@ -35,4 +35,4 @@ const Customerservicecard = () => {
   )
 }
 
-export default Customerservicecard
+export default Servicecard

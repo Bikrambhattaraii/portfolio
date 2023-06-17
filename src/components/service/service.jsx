@@ -1,8 +1,8 @@
-import "./customerservice.css";
+import "./service.css";
 
-import Customerservicecard from "./customerservicecard";
+import Servicecard from "./servicecard";
 
-const Customerservice = () => {
+const Service = () => {
   return (
     <>
       <div className="container-customerservice">
@@ -10,10 +10,10 @@ const Customerservice = () => {
         <h2> Development here</h2>
         <h3>Web Development</h3>
        
-      <Customerservicecard />
+      <Servicecard />
       </div>
     </>
   );
 };
-export default Customerservice;
+export default Service;
 
